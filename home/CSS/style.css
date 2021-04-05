@@ -8,6 +8,11 @@
     color: whitesmoke
 }
 
+.navbar-items > li {
+    list-style-type: none;
+    color: whitesmoke;
+}
+
 /*Styling navbar Ends*/
 
 /*Featured Photos*/
@@ -23,21 +28,22 @@
 
 
 #featured-photo-container {
-    background-color: cadetblue;
-    
+    background-image:url("/photos/picnic-table-wallpaper.jpg");
     
 }
 #Family-Times-Square-Photo {
     width: 100%;
     transform: rotate(15deg);
-    overflow: hidden;
     
+   
 }
 
 #Girls-Ruby {
     width: 100%;
     transform: rotate(40deg);
-    overflow: hidden;
+        
+    
+    
 }
 
 /*Featured Photos Ends*/
