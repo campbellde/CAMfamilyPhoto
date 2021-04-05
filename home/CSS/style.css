@@ -1,0 +1,19 @@
+/*Styling navbar */
+#navbar-container {
+    display: flexbox;
+    background-color: blue;
+}
+
+#navbar-title {
+    color: whitesmoke
+}
+
+#featured-photos-area {
+    width: 50%;
+}
+
+#Family-Times-Square-Photo {
+    width: 100%;
+    transform: rotate(45deg);
+    
+}
