@@ -1,3 +1,12 @@
+html {
+    font-size: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 /*Styling navbar */
 #navbar-container {
     
@@ -5,18 +14,30 @@
 }
 
 #navbar-title {
-    color: whitesmoke
+    color: whitesmoke;
+    padding-top: 5%;
+    margin-right: 30%;
+    align-items: center;
+    height: 100%;
+    font-size: 7rem;
 }
 
 .navbar-items {
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-end;
+    margin-left: 50%;
+    align-items: center;
+    height: 100%;
+    
 }
 
 .navbar-items > li {
     list-style-type: none;
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 5rem;
+    padding-top: 5%;
+    margin: 1%;
+    font-weight: bold;
 }
 
 /*Styling navbar Ends*/
@@ -24,7 +45,7 @@
 /*Featured Photos*/
 
 #featured-photos-area1, #featured-photos-area2 {
-    width: 10%;
+    width: 20%;
     height: 5%;
     padding: 5%;
     
@@ -35,18 +56,35 @@
 
 #featured-photo-container {
     background-image:url("/photos/picnic-table-wallpaper.jpg");
+    display: flex;
     
 }
-#Family-Times-Square-Photo {
+.top-picture {
     width: 100%;
     transform: rotate(15deg);
     
    
 }
 
-#Girls-Ruby {
+.top-picture:hover {
+    width: 100%;
+    transform: rotate(-15deg);
+    
+   
+}
+
+
+.bottom-picture {
     width: 100%;
     transform: rotate(40deg);
+        
+    
+    
+}
+
+.bottom-picture:hover {
+    width: 100%;
+    transform: rotate(-40deg);
         
     
     
