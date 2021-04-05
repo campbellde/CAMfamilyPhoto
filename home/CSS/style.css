@@ -1,19 +1,43 @@
 /*Styling navbar */
 #navbar-container {
     display: flexbox;
-    background-color: blue;
+    background-color: rgb(0, 140, 255);
 }
 
 #navbar-title {
     color: whitesmoke
 }
 
-#featured-photos-area {
-    width: 50%;
-}
+/*Styling navbar Ends*/
 
-#Family-Times-Square-Photo {
-    width: 100%;
-    transform: rotate(45deg);
+/*Featured Photos*/
+
+#featured-photos-area {
+    width: 40%;
+    height: 5%;
+    padding: 5%;
+    
+    
     
 }
+
+
+#featured-photo-container {
+    background-color: cadetblue;
+    
+    
+}
+#Family-Times-Square-Photo {
+    width: 100%;
+    transform: rotate(15deg);
+    overflow: hidden;
+    
+}
+
+#Girls-Ruby {
+    width: 100%;
+    transform: rotate(40deg);
+    overflow: hidden;
+}
+
+/*Featured Photos Ends*/
