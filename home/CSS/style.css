@@ -55,7 +55,7 @@ html {
 
 
 #featured-photo-container {
-    background-image:url("home/photos/picnic-table-wallpaper.jpg");
+    background-image:url("../photos/picnic-table-wallpaper.jpg");
     display: flex;
     
 }
