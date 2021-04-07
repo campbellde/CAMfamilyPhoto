@@ -9,85 +9,58 @@ html {
 
 /*Styling navbar */
 #navbar-container {
-    
+    display: flex;
     background-color: rgb(0, 140, 255);
+    justify-content: space-between;
 }
 
 #navbar-title {
     color: whitesmoke;
-    padding-top: 5%;
-    margin-right: 30%;
-    align-items: center;
-    height: 100%;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 .navbar-items {
     display: flex;
-    justify-content:flex-end;
-    margin-left: 50%;
-    align-items: center;
-    height: 100%;
-    
+    margin-right: 10%;
+    justify-content:space-evenly;
+    padding-right: 5%;
 }
 
 .navbar-items > li {
     list-style-type: none;
     color: whitesmoke;
-    font-size: 5rem;
+    font-size: 3.5rem;
     padding-top: 5%;
+    padding-left: 20%;
     margin: 1%;
     font-weight: bold;
 }
 
 /*Styling navbar Ends*/
 
-/*Featured Photos*/
-
-#featured-photos-area1, #featured-photos-area2 {
-    width: 20%;
-    height: 5%;
-    padding: 5%;
-    
-    
-    
-}
-
+/*Featured Collage Photos*/
 
 #featured-photo-container {
-    background-image:url("../photos/picnic-table-wallpaper.jpg");
-    display: flex;
+     display: flex;
+     justify-content: space-evenly;
+     
     
 }
-.top-picture {
+
+#featured-photos-collage-wrapper {
     width: 100%;
-    transform: rotate(15deg);
+    margin: 2%;
+}
+
+#featured-photos-collage {
+    width: 100%;
     
+}
+
+
+#flash-page-description {
+    font-size: 4rem;
+    padding-top: 2%;
    
-}
 
-.top-picture:hover {
-    width: 100%;
-    transform: rotate(-15deg);
-    
-   
-}
-
-
-.bottom-picture {
-    width: 100%;
-    transform: rotate(40deg);
-        
-    
-    
-}
-
-.bottom-picture:hover {
-    width: 100%;
-    transform: rotate(-40deg);
-        
-    
-    
-}
-
-/*Featured Photos Ends*/
+/*Featured Collage Photos Ends*/
