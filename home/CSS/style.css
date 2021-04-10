@@ -17,18 +17,20 @@ body {
 #navbar-container {
     display: flex;
     flex-direction: row;
-    background-color: rgb(0, 140, 255);
+    background-color: rgba(44, 125, 150, 0.877);
     justify-content:space-around;
     width: 100%;
     position: fixed;
-
+    opacity: 0.8;
+    overflow: hidden;
 }
 
 #navbar-title {
-    color: whitesmoke;
+    color:whitesmoke;
     font-size: 4rem;
     width: 100%;
     padding: 2%;
+    font-weight: bolder;
 
    
 }
@@ -55,15 +57,14 @@ a {
 .navbar-items li {
     font-size: 4rem;
     padding: 5%;
-    list-style: none;
-    
-    
+    list-style: none;   
 }
 
 .navbar-items a {
     
     text-transform: uppercase;
     color: whitesmoke;
+    font-weight: bolder;
 }
 
 
@@ -76,9 +77,10 @@ a {
      display: flex;
      justify-content: space-evenly;
      background-color: black;
-     width: 100%;
+     width: 100%;    
      color: whitesmoke;   
 }
+
 
 #featured-photos-collage-wrapper {
     width: 100%;
@@ -116,7 +118,7 @@ a {
         #navbar-container {
             display: flex;
             flex-direction: column;
-            background-color: rgb(91, 154, 206);
+            background-color: rgba(44, 125, 150, 0.877);
             justify-content:safe;
             width: 100%;
             margin: auto;
