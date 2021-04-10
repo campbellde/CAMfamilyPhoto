@@ -81,11 +81,43 @@ body {
 
 /*Featured Collage Photos Ends*/
 
-/*Country Flags*/
+/*Mobile Responsiveness*/
+@media (max-width: 500px) {
 
-.flag-icon-de {
-    background-image: url(../flags/4x3/de.svg);
-  }
-  .flag-icon-de.flag-icon-squared {
-    background-image: url(../flags/1x1/de.svg);
-  }
+    #navbar-container {
+        display: flex;
+        background-color: rgb(0, 140, 255);
+        justify-content:flex-start;
+        margin: 0;
+        padding: 0;
+    
+    }
+
+    #navbar-title, #scripture {
+        color: whitesmoke;
+        font-size: 2rem;
+        margin-left: 0%;
+        margin-right: 5%;
+        padding: 1%;
+    }
+
+    .navbar-items > li {
+        list-style-type: none;
+        color: whitesmoke;
+        font-size: 2.5rem;
+        padding-top: 5%;
+        padding-left: 5%;
+        margin: 0%;
+        font-weight: bold;
+    }
+    
+
+    #flash-page-description {
+        font-size: 3rem;
+        padding-top: 3%;
+        padding-right: 4%;
+    }
+    
+    
+    
+}
