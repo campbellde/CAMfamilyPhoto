@@ -104,7 +104,7 @@ a {
 /*Featured Collage Photos Ends*/
 
 /*Mobile Responsiveness*/
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
     /*Styling navbar */
 #navbar-container {
