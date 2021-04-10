@@ -18,19 +18,31 @@ body {
     display: flex;
     flex-direction: row;
     background-color: rgb(0, 140, 255);
-    justify-content:safe;
+    justify-content:space-around;
+    width: 100%;
 
 }
 
-#navbar-title, #scripture {
+#navbar-title {
+    color: whitesmoke;
+    font-size: 4rem;
+    width: 100%;
+    padding: 2%;
+
+   
+}
+
+#scripture {
     color: whitesmoke;
     font-size: 4rem;
     padding-left: 2%;
+
 }
 
 .navbar-items {
     display: flex;
-    margin-left:  30%;
+    width: 100%;
+    padding: 0;
     
 }
 
@@ -92,33 +104,46 @@ a {
 /*Featured Collage Photos Ends*/
 
 /*Mobile Responsiveness*/
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
-    #navbar-container {
-        display: flex;
-        background-color: rgb(0, 140, 255);
-        justify-content:flex-end;
-        margin: 0;
-        padding: 0;
+    /*Styling navbar */
+#navbar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(35, 40, 44);
+    justify-content:safe;
+    width: 100%;
     
-    }
 
-    #navbar-title > h1, #scripture {
-        color: whitesmoke;
-        margin-left: 0%;
-        margin-right: 5%;
-        font-size: 2rem;
-        padding: 1%;
-    }
+}
 
-
-
-    #flash-page-description {
-        font-size: 3rem;
-        padding-top: 3%;
-        padding-right: 4%;
-    }
+#navbar-title {
+    color: whitesmoke;
+    font-size: 2rem;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
     
+
+   
+}
+
+#featured-photo-container{
+    display: flexbox;
+    flex-direction: column;
+}
+
+#collage-photo-description-wrapper {
+    margin: 0;
+    width: 100%;
+}
+
+#featured-photos-collage-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
     
     
 }
