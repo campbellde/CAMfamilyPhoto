@@ -106,42 +106,96 @@ a {
 /*Mobile Responsiveness*/
 @media (max-width: 500px) {
 
-    /*Styling navbar */
-#navbar-container {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(35, 40, 44);
-    justify-content:safe;
-    width: 100%;
-    
+            /*Styling navbar */
+        #navbar-container {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(91, 154, 206);
+            justify-content:safe;
+            width: 100%;
+            margin: auto;
+           
+            
 
-}
+        }
 
-#navbar-title {
-    color: whitesmoke;
-    font-size: 2rem;
-    width: 100%;
-    padding: 2%;
-    text-align: center;
-    
+        #navbar-title {
+            color: whitesmoke;
+            font-size: 2rem;
+            width: 100%;
+            padding-top:10%;
+            text-align: center;
+            
 
-   
-}
+        
+        }
 
-#featured-photo-container{
-    display: flexbox;
-    flex-direction: column;
-}
+        .navbar-items {
+            display: flex;
+            width: 100%;
+            padding: 0;    
+        }
 
-#collage-photo-description-wrapper {
-    margin: 0;
-    width: 100%;
-}
+        a {
+            text-decoration: none;
+        }
 
-#featured-photos-collage-wrapper {
-    width: 100%;
-    margin: 0 auto;
-}
+
+        .navbar-items li {
+            font-size: 3rem;
+            padding: 5%;
+            list-style: none; 
+            
+        }
+
+        /*Styling the photo and scripture*/
+        #featured-photo-container{
+            display: flexbox;
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        #collage-photo-description-wrapper {
+           
+            width: 100%;
+        }
+
+        img#featured-photos-collage {
+            width: 100%;
+        }
+
+        #featured-photos-collage-wrapper {
+            width: 100%;
+           margin: auto;
+        }
+
+
+        #featured-photo-container {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: black;
+            width: 100%;
+            color: whitesmoke;   
+        }
+
+        #featured-photos-collage-wrapper {
+            width: 100%;
+           
+        }
+
+        #collage-photo-description-wrapper {
+            width: 100%;
+         
+            
+        }
+
+
+        p#flash-page-description {
+            font-size: 4rem;
+            
+        }
+
 
 
     
