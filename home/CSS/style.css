@@ -25,14 +25,16 @@ body {
     overflow: hidden;
 }
 
-#navbar-title {
+#navbar-title{
     color:whitesmoke;
     font-size: 4rem;
     width: 100%;
     padding: 2%;
-    font-weight: bolder;
-
-   
+    font-weight: bolder; 
+    text-transform: uppercase;  
+}
+span {
+    color: crimson;
 }
 
 #scripture {
@@ -107,7 +109,8 @@ a {
 }
 
 #featured-photos-collage:hover {
-    border: coral 5px solid;
+    border: crimson 5px solid;
+    
 }
 
 #featured-photos-collage-wrapper-photo-page {
