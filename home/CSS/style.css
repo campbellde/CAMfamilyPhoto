@@ -20,6 +20,8 @@ body {
     background-color: rgba(44, 125, 150, 0.877);
     justify-content:space-around;
     width: 100%;
+    padding: 0%;
+    margin: 0%;
     /*position: fixed;*/
     opacity: 0.8;
     overflow: hidden;
@@ -33,6 +35,15 @@ body {
     font-weight: bolder; 
     text-transform: uppercase;  
 }
+
+
+
+a:hover {
+    border-top: crimson 5px solid;
+    
+    
+}
+
 span {
     color: crimson;
 }
