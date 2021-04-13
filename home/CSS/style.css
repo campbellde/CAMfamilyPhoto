@@ -106,6 +106,10 @@ a {
     
 }
 
+#featured-photos-collage:hover {
+    border: coral 5px solid;
+}
+
 #featured-photos-collage-wrapper-photo-page {
     width: 40%;
     height: 100vh;
