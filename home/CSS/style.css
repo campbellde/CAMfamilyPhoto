@@ -39,7 +39,8 @@ body {
 
 
 a:hover {
-    border-top: crimson 5px solid;       
+    border-top: crimson 5px solid;    
+    border-style: inset;   
 }
 
 
