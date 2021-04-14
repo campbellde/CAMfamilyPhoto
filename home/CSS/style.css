@@ -17,7 +17,7 @@ body {
 #navbar-container {
     display: flex;
     flex-direction: row;
-    background-color: rgba(44, 125, 150, 0.877);
+    background-color: #99badd;
     justify-content:space-around;
     width: 100%;
     padding: 0%;
