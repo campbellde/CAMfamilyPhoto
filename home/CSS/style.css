@@ -20,8 +20,6 @@ body {
     background-color: #99badd;
     justify-content:space-around;
     width: 100%;
-    padding: 0%;
-    margin: 0%;
     /*position: fixed;*/
     opacity: 0.8;
     overflow: hidden;
@@ -29,7 +27,7 @@ body {
 
 #navbar-title{
     color:whitesmoke;
-    font-size: 4rem;
+    font-size: 3rem;
     width: 100%;
     padding: 2%;
     font-weight: bolder; 
@@ -49,7 +47,7 @@ span {
 }
 
 #scripture {
-    color: whitesmoke;
+    color: crimson;
     font-size: 4rem;
     padding-left: 2%;
 
@@ -140,6 +138,7 @@ a {
 }
 
 
+
 #flash-page-description {
     font-size: 5.5rem;
     padding-top: 3%;
@@ -149,19 +148,17 @@ a {
 /*Featured Collage Photos Ends*/
 
 /*Mobile Responsiveness*/
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
             /*Styling navbar */
         #navbar-container {
             display: flex;
             flex-direction: column;
+            flex-wrap: wrap;
             background-color: rgba(44, 125, 150, 0.877);
-            justify-content:safe;
             width: 100%;
-            margin: auto;
-            position: fixed;
-           
-            
+            position: relative; 
+                  
 
         }
 
@@ -170,16 +167,15 @@ a {
             font-size: 2rem;
             width: 100%;
             padding-top:10%;
-            text-align: center;
-            
-
-        
+            text-align: center;        
         }
 
         .navbar-items {
             display: flex;
+            flex-wrap: wrap;
             width: 100%;
             padding: 0;    
+            justify-content:space-around;
         }
 
         a {
@@ -198,44 +194,26 @@ a {
         #featured-photo-container{
             display: flexbox;
             flex-direction: column;
+            justify-content: center;
             width: 100%;
             margin: 0 auto;
-        }
-
-        #collage-photo-description-wrapper {
-           
-            width: 100%;
-            margin-top: 8%;
-        }
-
-        img#featured-photos-collage {
-            width: 100%;
-        }
-
-        #featured-photos-collage-wrapper {
-            width: 100%;
-            margin-top: 35%;
-        }
-
-
-        #featured-photo-container {
-            display: flex;
-            justify-content: space-evenly;
-            background-color: black;
-            width: 100%;
-            color: whitesmoke;   
-        }
-
-        #featured-photos-collage-wrapper {
-            width: 100%;
-           
-        }
-
-        #collage-photo-description-wrapper {
-            width: 100%;
-         
+            padding: 0%;
             
         }
+
+        #featured-photos-collage-wrapper {
+            height: 50vh;
+        }
+
+
+
+        img#featured-photos-collage {
+            width: 90%;
+            
+        }
+   
+        
+                   
 
 
         p#flash-page-description {
