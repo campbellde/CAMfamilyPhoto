@@ -180,8 +180,8 @@ a {
 
 .photo-page-hero-section-container {
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    /*height: 100vh;*/
+    /*overflow: hidden;*/
     background-image: url(../photos/WorldMap.jpg);
     opacity: 0.9;
     display: flex;
