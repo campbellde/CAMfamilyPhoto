@@ -251,8 +251,9 @@ div.country-flag-section {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-   
-    
+    margin: 0% auto;
+    padding: 2%;
+       
 }
 
 .germany-photo-thumbnail {
@@ -272,6 +273,7 @@ div.country-flag-section {
         z-index: 0;
         position: relative;*/
         width: 20vw;
+        
            
 }
 
