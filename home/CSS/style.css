@@ -7,6 +7,7 @@ html {
     padding: 0;
     border: 0;
     font-family: 'Merienda', cursive, sans-serif;
+    box-sizing: border-box;
   }
 body {
     padding: 1%;
@@ -18,7 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #99badd;
-    width: 100%;
+    width: 100vw;
     /*position: fixed;*/
     opacity: 0.8;
     overflow: hidden;
@@ -119,13 +120,13 @@ a {
     
 }
 
-#featured-photos-collage-wrapper-photo-page {
+/*#featured-photos-collage-wrapper-photo-page {
     width: 50%;
     margin-top: 1%;
     margin-left: 1%;
     
     
-}
+}*/
 
 
 
@@ -172,7 +173,45 @@ a {
     font-weight: 900;
     margin: 2%;
 }
+/*About Us Page Ends*/
 
+/*Photo Page*/
+
+.photo-page-hero-section-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../photos/WorldMap.jpg);
+    opacity: 0.9;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.countries {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.countries:hover {
+    filter: grayscale(0%);
+}
+
+.country-name {
+    color: red;
+    z-index: 4;
+    font-size: 5rem;
+
+    
+}
+
+
+
+
+/*Photo Page Ends*/
 
 /*Mobile Responsiveness*/
 @media (max-width: 600px) {
