@@ -11,6 +11,7 @@ html {
   }
 body {
     padding: 1%;
+    margin: 0 auto;
 }
 
 
@@ -19,7 +20,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #99badd;
-    width: 100vw;
+    width: 100%;
     /*position: fixed;*/
     opacity: 0.8;
     overflow: hidden;
@@ -178,34 +179,53 @@ a {
 /*Photo Page*/
 
 .photo-page-hero-section-container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
     background-image: url(../photos/WorldMap.jpg);
     opacity: 0.9;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    justify-items: center;
+    justify-content: space-around;
+    
+    /*align-items: center;*/
     
 }
 
 .countries {
-    width: 100%;
+    width: 50%;
     filter: grayscale(100%);
+    transition: 3s;
 }
 
 .countries:hover {
     filter: grayscale(0%);
+    transition: 1s;
+
 }
 
 .country-name {
     color: red;
     z-index: 4;
-    font-size: 5rem;
+    font-size: 4rem;
+    font-weight: bold;
 
     
+}
+
+.country-flag-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    
+}
+
+div.country-flag-section {
+    padding-bottom: 0%;
+    margin: 5%;
 }
 
 
