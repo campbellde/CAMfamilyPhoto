@@ -204,7 +204,7 @@ a {
 .countries:hover {
     filter: grayscale(0%);
     transition: 1s;
-    transform: scale(2) translate(-50%, -50%);
+    transform: scale(2) translate(-10%, -10%);
 
 }
 
