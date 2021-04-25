@@ -37,7 +37,7 @@ body {
 
 
 
-a:hover {
+a.hyperlinks:hover {
     border-top: crimson 5px solid;    
     border-style: inset;   
 }
@@ -204,9 +204,21 @@ a {
 .countries:hover {
     filter: grayscale(0%);
     transition: 1s;
-    transform: scale(2) translate(-10%, -10%);
+   
 
 }
+
+
+
+.country-flag-section:hover {
+    filter: grayscale(0%);
+    transition: 1s;
+    transform: scale(2) translate(-10%, -10%);
+    
+
+}
+
+
 
 .country-name {
     color: red;
@@ -228,11 +240,42 @@ div.country-flag-section {
     padding-bottom: 0%;
     margin: 5%;
 }
-
-
-
-
 /*Photo Page Ends*/
+
+/*Germany Page*/
+
+.germany-photos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; 
+    background-color: black;
+}
+
+.germany-photo-thumbnail {
+    width: 40%;
+    filter:grayscale(100%);
+    background: #ffffff;
+        display: inline-block;
+        margin: 55px 75px 30px;
+        padding: 15px 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -webkit-transition: all .20s linear;
+        -moz-transition: all .20s linear;
+        transition: all .20s linear;
+        z-index: 0;
+        position: relative;
+       
+    
+}
+
+
+/*Germany Page Ends*/
 
 /*Mobile Responsiveness*/
 @media (max-width: 600px) {
