@@ -196,7 +196,7 @@ a {
 }
 
 .countries {
-    width: 50%;
+    width: 90%;
     filter: grayscale(100%);
     transition: 3s;
 }
