@@ -150,16 +150,30 @@ a {
 /*Featured Collage Photos Ends*/
 
 /*About Us page*/
-.aboutus-container {
+#aboutus-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
-    width:50%;
+    width:100%;
+    padding: 1.5em;
+    /*margin: 0 auto;*/
+    background-color: black;
+    color: whitesmoke;
+    height: 100vh;
 }
-.aboutus-container > img{
+#aboutus-container > img{
     width: 100%;
+   
     
 }
+
+#aboutus-container > p{
+    font-size: 5rem;  
+    font-weight: 900;
+    margin: 2%;
+}
+
+
 /*Mobile Responsiveness*/
 @media (max-width: 600px) {
 
