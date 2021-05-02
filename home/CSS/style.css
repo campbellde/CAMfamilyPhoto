@@ -272,9 +272,11 @@ div.country-flag-section {
         transition: all .20s linear;
         z-index: 0;
         position: relative;*/
-        width: 20vw;
-        
-           
+        width: 20vw;         
+}
+
+.germany-photo-thumbnail:hover {
+    transform: scale(1.5);
 }
 
 
