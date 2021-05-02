@@ -196,7 +196,8 @@ a {
 }
 
 .countries {
-    width: 90%;
+    width: 135px;
+    height: 135px;
     filter: grayscale(100%);
     transition: 3s;
 }
@@ -249,10 +250,11 @@ div.country-flag-section {
     background-color: black;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
     margin: 0% auto;
     padding: 2%;
+  
        
 }
 
@@ -278,7 +280,6 @@ div.country-flag-section {
 .germany-photo-thumbnail:hover {
     transform: scale(1.5);
 }
-
 
 
 
@@ -342,6 +343,13 @@ div.country-flag-section {
             width: 90%;
             
         }  
+
+        .countries {
+        width: 135px;
+        height: 135px;
+        filter: grayscale(100%);
+        transition: 3s;
+    }
                    
 
 
