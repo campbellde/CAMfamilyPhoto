@@ -198,7 +198,7 @@ a {
 .countries {
     width: 135px;
     height: 135px;
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
     transition: 3s;
 }
 
@@ -347,7 +347,7 @@ div.country-flag-section {
         .countries {
         width: 135px;
         height: 135px;
-        filter: grayscale(100%);
+        /*filter: grayscale(100%);*/
         transition: 3s;
     }
                    
