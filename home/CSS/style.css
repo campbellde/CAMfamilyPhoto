@@ -354,19 +354,24 @@ div.country-flag-section {
         #aboutus-container {
             display: flex;
             flex-direction: column;
+            width: 100%;
             justify-content: space-between;
             /* margin: 0 auto; */
             background-color: black;
             color: whitesmoke;
-            height: 100vh;
+            height: 100%;
             
            
            
         }
 
         #aboutus-container > img {
-            width: 70%;
-            overflow:hidden;
+            max-width: 100%;
+            max-height: 100%;
+             display: block; /* remove extra space below image */
+             padding: 1%;
+             border: 5rem whitesmoke solid;
+          
             
         }
 
