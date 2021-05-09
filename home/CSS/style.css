@@ -245,7 +245,7 @@ div.country-flag-section {
 
 /*Germany Page*/
 
-.germany-photos-container {
+.photos-container {
     display: flex;
     background-color: black;
     flex-direction: row;
@@ -258,7 +258,7 @@ div.country-flag-section {
        
 }
 
-.germany-photo-thumbnail {
+.photo-thumbnail {
         filter: grayscale();
         background:whitesmoke;
         /*display: inline-block;*/
@@ -277,7 +277,7 @@ div.country-flag-section {
         width: 20vw;         
 }
 
-.germany-photo-thumbnail:hover {
+.photo-thumbnail:hover {
     transform: scale(1.5);
 }
 /*Germany Page Ends*/
